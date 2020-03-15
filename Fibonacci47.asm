@@ -59,7 +59,7 @@ generate_fibonacci PROC USES eax ebx ecx edx
 			add			eax, ebx
 			mov			ebx, edx
 			add			esi, TYPE esi
-		loop L1
+		jmp L1
 		ret
 generate_fibonacci ENDP
 
